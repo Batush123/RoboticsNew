@@ -31,3 +31,86 @@ make: Nothing to be done for `all'.
 19:58:46 **** Incremental Build of configuration Debug for project RoboticsNew ****
 make all 
 make: Nothing to be done for `all'.
+20:31:55 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+make: Nothing to be done for `all'.
+20:37:54 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+make: Nothing to be done for `all'.
+20:47:07 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+make: Nothing to be done for `all'.
+20:48:17 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+make: Nothing to be done for `all'.
+20:51:37 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+make: Nothing to be done for `all'.
+20:53:38 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+make: Nothing to be done for `all'.
+20:56:44 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+make: Nothing to be done for `all'.
+21:01:44 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+make: Nothing to be done for `all'.
+21:14:52 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+Building file: ../HamsterUtilities.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HamsterUtilities.d" -MT"HamsterUtilities.o" -o "HamsterUtilities.o" "../HamsterUtilities.cpp"
+../HamsterUtilities.cpp: In member function ‘void HamsterUtilities::MoveToNextWayPoint(int)’:
+../HamsterUtilities.cpp:256:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = 0;
+      ^
+In file included from ../HamsterUtilities.h:15:0,
+                 from ../HamsterUtilities.cpp:8:
+../HamsterUtilities.cpp: In member function ‘void HamsterUtilities::paintParticles()’:
+../LocalizationManager.h:17:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ #define TOPFIVE 5
+                 ^
+../HamsterUtilities.cpp:339:42: note: in expansion of macro ‘TOPFIVE’
+  for(i = 0; i < particlesVector.size() - TOPFIVE; i++)
+                                          ^
+../HamsterUtilities.cpp:344:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(; i < particlesVector.size(); i++)
+                                 ^
+Finished building: ../HamsterUtilities.cpp
+ 
+Building target: RoboticsNew
+Invoking: Cross G++ Linker
+g++  -o "RoboticsNew"  ./ConfigFile.o ./HamsterUtilities.o ./LocalizationManager.o ./OurHamster.o   -lHamsterAPICommon -lopencv_imgproc -lopencv_core -lopencv_highgui -lCogniAlgCPP -lHamsterAPIClientCPP
+Finished building target: RoboticsNew
+ 
+22:17:03 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+Building file: ../HamsterUtilities.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HamsterUtilities.d" -MT"HamsterUtilities.o" -o "HamsterUtilities.o" "../HamsterUtilities.cpp"
+../HamsterUtilities.cpp: In member function ‘void HamsterUtilities::MoveToNextWayPoint(int)’:
+../HamsterUtilities.cpp:256:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i = 0;
+      ^
+In file included from ../HamsterUtilities.h:15:0,
+                 from ../HamsterUtilities.cpp:8:
+../HamsterUtilities.cpp: In member function ‘void HamsterUtilities::paintParticles()’:
+../LocalizationManager.h:17:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ #define TOPFIVE 5
+                 ^
+../HamsterUtilities.cpp:339:42: note: in expansion of macro ‘TOPFIVE’
+  for(i = 0; i < particlesVector.size() - TOPFIVE; i++)
+                                          ^
+../HamsterUtilities.cpp:344:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(; i < particlesVector.size(); i++)
+                                 ^
+Finished building: ../HamsterUtilities.cpp
+ 
+Building target: RoboticsNew
+Invoking: Cross G++ Linker
+g++  -o "RoboticsNew"  ./ConfigFile.o ./HamsterUtilities.o ./LocalizationManager.o ./OurHamster.o   -lHamsterAPICommon -lopencv_imgproc -lopencv_core -lopencv_highgui -lCogniAlgCPP -lHamsterAPIClientCPP
+Finished building target: RoboticsNew
+ 
+22:21:27 **** Incremental Build of configuration Debug for project RoboticsNew ****
+make all 
+make: Nothing to be done for `all'.
