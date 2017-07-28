@@ -1,0 +1,4 @@
+startLoc 470 470 90
+goal 600 650
+hamserRadius 0.05
+mapres 0.01

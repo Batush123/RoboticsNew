@@ -1,0 +1,14 @@
+19:47:20 **** Build of configuration Debug for project RoboticsBNG ****
+make all 
+Building file: ../source/Configuration.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"source/Configuration.d" -MT"source/Configuration.o" -o "source/Configuration.o" "../source/Configuration.cpp"
+In file included from ../source/Configuration.cpp:6:0:
+../source/../headers/Robot.h:4:36: fatal error: libplayerc++/playerc++.h: No such file or directory
+ #include <libplayerc++/playerc++.h>
+                                    ^
+compilation terminated.
+make: *** [source/Configuration.o] Error 1
+
+19:47:21 Build Finished (took 490ms)
+

@@ -1,0 +1,7 @@
+18:51:16 **** Clean-only build of configuration Debug for project Ex1 ****
+make clean 
+rm -rf  ./main.o ./trying.o  ./main.d ./trying.d  Ex1
+ 
+
+18:51:16 Build Finished (took 90ms)
+
